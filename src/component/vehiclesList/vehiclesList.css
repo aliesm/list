@@ -1,0 +1,25 @@
+.containerList {
+    padding: 15px 0 15px 2.4rem ;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 50px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: 95vh;
+}
+
+.containerList :hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+}
+
+
+
+
+
+
