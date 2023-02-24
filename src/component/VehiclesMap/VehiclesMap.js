@@ -26,6 +26,7 @@ const VehiclesMap = (props) => {
                 <h3><img alt="" src="vin.png" width="22" height="12" /> {vehicle.vin}</h3>
                 <h3><img alt="" src="Address.png" width="15" height="15" />{vehicle.address}</h3>
                 <h3><img alt="" src="fuel.jpg" width="15" height="15" />{`${vehicle.fuelType}  (fuelLevel ${vehicle.fuelLevel})`}</h3>
+                <h3><img alt="" src="vehicle-plates.png" width="15" height="15" /> {vehicle.plate}</h3>
             </Popup>
         )
     };
